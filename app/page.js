@@ -1,10 +1,11 @@
 import Navbar from '@/Components/Navbar';
+import PageTitle from '@/Components/PageTitle';
 //home pagepage
 export default function HomePage() {
   return (
     <div className="page">
-      <Navbar />
-      <h1>Welcome to My App!</h1>
+      <Navbar currentPage="Home" />
+      <PageTitle text="Welcome to My App!" />
     </div>
   );
 }

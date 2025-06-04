@@ -7,7 +7,7 @@ export default function CounterPage() {
 
   return (
     <div className="page">
-      <Navbar />
+      <Navbar currentPage="Counter" />
       <h2>Count: {count}</h2>
        {/* Buttons trigger events to change counter value */}
       <button className="button" onClick={() => setCount(count + 1)}>+1</button>

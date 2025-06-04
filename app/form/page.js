@@ -15,7 +15,8 @@ export default function FormPage() {
 
   return (
     <div className="page">
-      <Navbar />
+      <Navbar currentPage="Form" />
+
       <form onSubmit={handleSubmit}>
         <input
           className="input"
